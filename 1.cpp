@@ -34,6 +34,12 @@ class ArrivalTime{
          }
 };
 
+
+
+
+
+
+
 int main()
 {
 	Company myCompany;
@@ -47,37 +53,4 @@ int main()
     
 	
 	
-}
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-class HotelReservation{
-  static void Main(string[]args){
-    Console.WriteLine("Добро пожаловать в отель.Пожалуйста укажите свое имя:!");
-    string guestName = 
-    Console.Readline();
-    
-            Console.WriteLine("Укажите количество мест:");
-            int numberOfSeats =
-            Convert.ToInt32(Console.Readline());
-            Console.WriteLine("Укажите дату заезда:");
-            Console.WriteLine("Укажите дату отъезда:");
-            DateTime checkInDate = 
-            Convert.ToDateTime(Console.Readline());
-            bool isReservationSuccesfull = 
-            MakeReservation(guestName,numberOfSeats,checkInDate,checkOutDate);
-            if  (isReservationSuccesfull){
-              Console.WriteLine("Место успешно забронирова.");
-            }
-            else{
-              Console.WriteLine("Место недоступен для бронирования.");
-            }
-            static bool MakeReservation(string guestName,int numberOfSeats,DateTime,checkInDate,checkOutDate);
-            {
-              bool isReservationSuccesfull = true;
-              return isReservationSuccesfull;
-            }
-  }
 }
