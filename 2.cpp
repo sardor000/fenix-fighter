@@ -42,6 +42,6 @@ int main (){
                 }
                 std::cout <<std:: endl;
         } while (choise !=3);
-        return 0;
+        return ;
 }
 }
